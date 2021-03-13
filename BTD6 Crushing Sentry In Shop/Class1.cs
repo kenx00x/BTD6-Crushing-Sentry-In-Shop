@@ -9,7 +9,7 @@ using Harmony;
 using Il2CppSystem.Collections.Generic;
 using MelonLoader;
 using System.IO;
-[assembly: MelonInfo(typeof(BTD6_Crushing_Sentry_In_Shop.Class1), "Crushing Sentry In Shop", "1.0.0", "kenx00x")]
+[assembly: MelonInfo(typeof(BTD6_Crushing_Sentry_In_Shop.Class1), "Crushing Sentry In Shop", "1.1.0", "kenx00x")]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
 namespace BTD6_Crushing_Sentry_In_Shop
 {
