@@ -51,7 +51,7 @@ namespace BTD6_Crushing_Sentry_In_Shop
             [HarmonyPostfix]
             public static void Postfix(ProfileModel __instance)
             {
-                List<string> unlockedTowers = __instance.unlockedTowers;
+                HashSet<string> unlockedTowers = __instance.unlockedTowers;
                 if (unlockedTowers.Contains("SentryCrushing"))
                 {
                     MelonLogger.Log("Crushing Sentry already unlocked");
